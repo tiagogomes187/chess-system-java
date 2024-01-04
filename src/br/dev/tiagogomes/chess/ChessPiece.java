@@ -3,7 +3,7 @@ package br.dev.tiagogomes.chess;
 import br.dev.tiagogomes.boardgame.Board;
 import br.dev.tiagogomes.boardgame.Piece;
 
-public class ChessPiece extends Piece {
+public abstract class ChessPiece extends Piece {
 
     private Color color;
 
